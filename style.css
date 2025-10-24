@@ -151,7 +151,6 @@ header {
 
 /* ===== todo list input Section ===== */
 .input-section {
-  display: flex;
   align-items: center;
   margin-top: 100px;      
   gap: 10px;             
@@ -164,6 +163,7 @@ header {
 
 /* ===== todo list input Section ===== */
 #js-input {
+   display: flex;
   border: 1px solid black;
   width: 200px;
   height: 40px;
@@ -175,6 +175,7 @@ header {
 
 /* ===== todo list button Section ===== */
 #js-button {
+  display: flex;
   width: 90px;
   height: 30px;
   border-radius: 5px;
@@ -190,6 +191,7 @@ header {
 
 /* ===== todo list button Section ===== */
 #js-reset {
+  display: flex;
   background-color: lightgreen;
   color: black;
   border: 1px solid black;
@@ -211,6 +213,7 @@ header {
   width: 100px;
   height: 20px;
   border: 1px solid black;
+  display: flex;
   flex-direction: column;
 }
 
@@ -322,6 +325,7 @@ html {
   background-color: royalblue;
   transform: translateY(-5px);
 }
+
 
 
 
