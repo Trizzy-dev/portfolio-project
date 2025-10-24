@@ -206,6 +206,7 @@ header {
 /* ===== todo list button Section ===== */
 #js-delete {
   display: flex;
+  align-item: center;
   background-color: red;
   color: black;
   border-radius: 100px;
@@ -322,6 +323,7 @@ html {
   background-color: royalblue;
   transform: translateY(-5px);
 }
+
 
 
 
