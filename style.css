@@ -213,8 +213,6 @@ header {
   width: 100px;
   height: 20px;
   border: 1px solid black;
-  display: flex;
-  flex-direction: column;
 }
 
 #array-lists {
@@ -325,6 +323,7 @@ html {
   background-color: royalblue;
   transform: translateY(-5px);
 }
+
 
 
 
