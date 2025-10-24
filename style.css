@@ -214,6 +214,7 @@ header {
 }
 
 #array-lists {
+  display: flex;
   margin-left: 0;
   
 }
@@ -322,6 +323,7 @@ html {
   background-color: royalblue;
   transform: translateY(-5px);
 }
+
 
 
 
