@@ -161,6 +161,33 @@ header {
   text-align: center;
 }
 
+/* ===== responsive input section ===== */
+.input-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; 
+}
+
+.input-container input {
+  flex: 1;
+  min-width: 150px;
+  max-width: 300px;
+}
+
+
+@media (max-width: 600px) {
+  .input-container {
+    flex-direction: column; 
+    align-items: stretch;
+  }
+
+  .input-container input,
+  .input-container button {
+    width: 100%;
+  }
+}
+
 /* ===== todo list button Section ===== */
 #js-button {
   width: 90px;
@@ -307,4 +334,5 @@ html {
   background-color: royalblue;
   transform: translateY(-5px);
 }
+
 
