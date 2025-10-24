@@ -15,6 +15,7 @@ let resetButton = document.getElementById("js-reset")
 
 resetButton.addEventListener("click", () => {
     arrayList.innerHTML = "";
+    todoList = [];
 })
 
 
@@ -47,4 +48,5 @@ function displayTodo() {
 
   })
 }
+
 
