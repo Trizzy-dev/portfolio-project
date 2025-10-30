@@ -325,6 +325,40 @@ html {
   transform: translateY(-5px);
 }
 
+/* ===== calculator ===== */
+
+.input {
+  border: 1px solid black;
+  width: 300px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  height: 30px;
+  margin-left: 20px;
+  color: black;
+  background-color: skyblue;
+}
+
+.grid-container {
+display: grid;
+gap: 10px;
+grid-template-columns: auto auto auto auto;
+width: 300px;
+margin-left: 20px;
+background-color: gray;
+border-radius: 10px;
+border: 1px solid black;
+}
+
+.btn {
+  color: black;
+  background-color: blue;
+  border-radius: 10px;
+}
+
+.btn :hover {
+  background-color: green;
+}
+
 
 
 
