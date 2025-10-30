@@ -66,6 +66,7 @@ This keeps your calculator from breaking when the user types an invalid expressi
         */
 
         }else if(e.key === "x" || e.key === "Backspace") {
+                e.preventDefault();
             inputValue.value = inputValue.value.slice(0,-1)
         }else if (["%", "/", "*", "-", "+",].includes(e.key)) {
             /*
@@ -124,5 +125,6 @@ In short: this branch runs when the pressed key looks like a numeric value.
 
 
     
+
 
 
