@@ -24,6 +24,10 @@ buttonElement.forEach((buttons) => {
         }else if(value === "x") {
             inputValue.value = inputValue.value.slice(0,-1)
         }else  {
+                if(justEvaluated) {
+                inputValue.value = ""
+                justEvaluated = false
+            }
             inputValue.value += value
         }
             
@@ -125,6 +129,7 @@ In short: this branch runs when the pressed key looks like a numeric value.
 
 
     
+
 
 
 
